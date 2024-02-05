@@ -1,12 +1,11 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Landing() {
   const [users, setUsers] = useState([
-    { id: 1, name: "User1", color: "blue" },
-    { id: 2, name: "User2", color: "red" },
-    { id: 3, name: "User3", color: "green" },
+    { id: 1, name: "User1"},
+    { id: 2, name: "User2"},
+    { id: 3, name: "User3"},
   ]);
 
   return (
